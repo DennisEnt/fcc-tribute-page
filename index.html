@@ -10,24 +10,32 @@
 
 </head>
 <body>
-    <div class="container">
+    <div id="main">
+        <div class="container">
         <div class="col-sm-12 col-lg-12">
             <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                 <h1 class="display-3 text-center">Ricky Pointing</h1>
+                 <h1 class="display-3 text-center" id="title">Ricky Pointing</h1>
                     <p class="lead text-center">Great Australian Batsman</p>
-                    <img src="ricky.jpg" alt="Ricky Ponting" class="img-responsive">
+                    <div id="img-div">
+                        <img src="ricky.jpg" alt="Ricky Ponting" class="img-responsive" id="image">
+                        <div id="img-caption"></div>
+                    </div>
+                
                     <hr class="my-4">
-                    <p>Career Highlights</p>
+                    <div id="tribute-info">
+                        <p>Career Highlights</p>
                         <p>13,378 Test Runs</p>
                         <p>41 Test Hundreds</p>
                         <p>257 - Highest Test Score</p>
                         <p class="lead">
-                        <a class="btn btn-primary btn-lg" href="http://www.espncricinfo.com/australia/content/player/7133.html" target="_blank" role="button">Learn more</a>
+                        <a class="btn btn-primary btn-lg" id="tribute-link"href="http://www.espncricinfo.com/australia/content/player/7133.html" target="_blank" role="button">Learn more</a>
                     </p>
+                    </div>
             </div>
         </div>
         </div>
+    </div>
     </div>
     <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
 </body>
